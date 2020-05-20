@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,16 @@
 		0442B54624744D8A0008A6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0442B54524744D8A0008A6B0 /* Assets.xcassets */; };
 		0442B54924744D8A0008A6B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0442B54824744D8A0008A6B0 /* Preview Assets.xcassets */; };
 		0442B54C24744D8A0008A6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0442B54A24744D8A0008A6B0 /* LaunchScreen.storyboard */; };
+		0442B55724744DEC0008A6B0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B55524744DEC0008A6B0 /* SignUpView.swift */; };
+		0442B55824744DEC0008A6B0 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B55624744DEC0008A6B0 /* SignIn.swift */; };
+		0442B55B24744E0B0008A6B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B55A24744E0B0008A6B0 /* User.swift */; };
+		0442B560247451F70008A6B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0442B55F247451F70008A6B0 /* GoogleService-Info.plist */; };
+		0442B564247455A40008A6B0 /* NetworkingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B562247455A40008A6B0 /* NetworkingImages.swift */; };
+		0442B565247455A40008A6B0 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B563247455A40008A6B0 /* Networking.swift */; };
+		0442B569247455DA0008A6B0 /* NetworkingSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B567247455DA0008A6B0 /* NetworkingSignUp.swift */; };
+		0442B56A247455DA0008A6B0 /* NetowrkableAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B568247455DA0008A6B0 /* NetowrkableAuth.swift */; };
+		0442B56C247463D50008A6B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B56B247463D50008A6B0 /* Item.swift */; };
+		92383C01F4EC3512011772EE /* Pods_Vincent_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6E930E76D8F8D124D7E4B3 /* Pods_Vincent_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,18 @@
 		0442B54824744D8A0008A6B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0442B54B24744D8A0008A6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0442B54D24744D8A0008A6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0442B55524744DEC0008A6B0 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		0442B55624744DEC0008A6B0 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		0442B55A24744E0B0008A6B0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0442B55F247451F70008A6B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0442B562247455A40008A6B0 /* NetworkingImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingImages.swift; sourceTree = "<group>"; };
+		0442B563247455A40008A6B0 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		0442B567247455DA0008A6B0 /* NetworkingSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingSignUp.swift; sourceTree = "<group>"; };
+		0442B568247455DA0008A6B0 /* NetowrkableAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetowrkableAuth.swift; sourceTree = "<group>"; };
+		0442B56B247463D50008A6B0 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		917E43B3ED949BC8AC6C38BC /* Pods-Vincent_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vincent_App.release.xcconfig"; path = "Target Support Files/Pods-Vincent_App/Pods-Vincent_App.release.xcconfig"; sourceTree = "<group>"; };
+		9F6E930E76D8F8D124D7E4B3 /* Pods_Vincent_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vincent_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E146760ECB006E7EB6087447 /* Pods-Vincent_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vincent_App.debug.xcconfig"; path = "Target Support Files/Pods-Vincent_App/Pods-Vincent_App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92383C01F4EC3512011772EE /* Pods_Vincent_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				0442B53E24744D850008A6B0 /* Vincent_App */,
 				0442B53D24744D850008A6B0 /* Products */,
+				18DC99880B778C04EAEFD0B2 /* Pods */,
+				1A49D6EBA100DAAFC6CE74F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +81,13 @@
 		0442B53E24744D850008A6B0 /* Vincent_App */ = {
 			isa = PBXGroup;
 			children = (
+				0442B5612474555E0008A6B0 /* Networking */,
 				0442B53F24744D850008A6B0 /* AppDelegate.swift */,
 				0442B54124744D850008A6B0 /* SceneDelegate.swift */,
-				0442B54324744D850008A6B0 /* ContentView.swift */,
+				0442B55924744DFB0008A6B0 /* Models */,
+				0442B55324744D980008A6B0 /* Views */,
 				0442B54524744D8A0008A6B0 /* Assets.xcassets */,
+				0442B55F247451F70008A6B0 /* GoogleService-Info.plist */,
 				0442B54A24744D8A0008A6B0 /* LaunchScreen.storyboard */,
 				0442B54D24744D8A0008A6B0 /* Info.plist */,
 				0442B54724744D8A0008A6B0 /* Preview Content */,
@@ -75,6 +103,61 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0442B55324744D980008A6B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0442B55624744DEC0008A6B0 /* SignIn.swift */,
+				0442B55524744DEC0008A6B0 /* SignUpView.swift */,
+				0442B54324744D850008A6B0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0442B55924744DFB0008A6B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0442B56B247463D50008A6B0 /* Item.swift */,
+				0442B55A24744E0B0008A6B0 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0442B5612474555E0008A6B0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0442B566247455C70008A6B0 /* Auth */,
+				0442B563247455A40008A6B0 /* Networking.swift */,
+				0442B562247455A40008A6B0 /* NetworkingImages.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0442B566247455C70008A6B0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0442B568247455DA0008A6B0 /* NetowrkableAuth.swift */,
+				0442B567247455DA0008A6B0 /* NetworkingSignUp.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		18DC99880B778C04EAEFD0B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E146760ECB006E7EB6087447 /* Pods-Vincent_App.debug.xcconfig */,
+				917E43B3ED949BC8AC6C38BC /* Pods-Vincent_App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1A49D6EBA100DAAFC6CE74F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E930E76D8F8D124D7E4B3 /* Pods_Vincent_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0442B55024744D8A0008A6B0 /* Build configuration list for PBXNativeTarget "Vincent_App" */;
 			buildPhases = (
+				A99CF8BEE5D3F6F38584C4DC /* [CP] Check Pods Manifest.lock */,
 				0442B53824744D850008A6B0 /* Sources */,
 				0442B53924744D850008A6B0 /* Frameworks */,
 				0442B53A24744D850008A6B0 /* Resources */,
+				ED855E856A3D42F525251EB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0442B560247451F70008A6B0 /* GoogleService-Info.plist in Resources */,
 				0442B54C24744D8A0008A6B0 /* LaunchScreen.storyboard in Resources */,
 				0442B54924744D8A0008A6B0 /* Preview Assets.xcassets in Resources */,
 				0442B54624744D8A0008A6B0 /* Assets.xcassets in Resources */,
@@ -141,12 +227,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A99CF8BEE5D3F6F38584C4DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vincent_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED855E856A3D42F525251EB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vincent_App/Pods-Vincent_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vincent_App/Pods-Vincent_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vincent_App/Pods-Vincent_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0442B53824744D850008A6B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0442B55724744DEC0008A6B0 /* SignUpView.swift in Sources */,
 				0442B54024744D850008A6B0 /* AppDelegate.swift in Sources */,
+				0442B55B24744E0B0008A6B0 /* User.swift in Sources */,
+				0442B565247455A40008A6B0 /* Networking.swift in Sources */,
+				0442B56A247455DA0008A6B0 /* NetowrkableAuth.swift in Sources */,
+				0442B55824744DEC0008A6B0 /* SignIn.swift in Sources */,
+				0442B56C247463D50008A6B0 /* Item.swift in Sources */,
+				0442B569247455DA0008A6B0 /* NetworkingSignUp.swift in Sources */,
+				0442B564247455A40008A6B0 /* NetworkingImages.swift in Sources */,
 				0442B54224744D850008A6B0 /* SceneDelegate.swift in Sources */,
 				0442B54424744D850008A6B0 /* ContentView.swift in Sources */,
 			);
@@ -282,6 +418,7 @@
 		};
 		0442B55124744D8A0008A6B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E146760ECB006E7EB6087447 /* Pods-Vincent_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +439,7 @@
 		};
 		0442B55224744D8A0008A6B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917E43B3ED949BC8AC6C38BC /* Pods-Vincent_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

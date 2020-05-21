@@ -63,12 +63,15 @@ struct SignIn: View {
                     }
                     .padding()
                     VStack(spacing: 10){
+                       
                         Button(action: {
+                            
                             self.signIn()
                             
                         }) {
                             
-                            NavigationLink(destination: ContentView() ) {
+                            
+                            NavigationLink(destination: ContentView()) {
                                 Text("Sign in")
                                     
                                     .font(.custom("Helvetica Neue", size: 27))
@@ -77,6 +80,7 @@ struct SignIn: View {
                                     .background(Color("SigninColor"))
                                     .clipShape(Capsule())
                                     .foregroundColor(.white)
+                                
                             }
                             
                             
@@ -147,6 +151,8 @@ struct SignIn: View {
             // fail
             self.signedInFailed = true
         }
+        
+      
     }
     
     func signInAlert() -> Alert{

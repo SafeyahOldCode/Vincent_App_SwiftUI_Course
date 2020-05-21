@@ -36,7 +36,8 @@ struct SignUpView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .frame(width: 300, alignment: .leading)
                     .padding(.top)
-                
+                                   
+                    
                     TextField("Enter your password", text: $password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     

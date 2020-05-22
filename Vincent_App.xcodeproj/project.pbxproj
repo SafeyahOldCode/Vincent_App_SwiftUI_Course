@@ -27,6 +27,7 @@
 		0442B569247455DA0008A6B0 /* NetworkingSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B567247455DA0008A6B0 /* NetworkingSignUp.swift */; };
 		0442B56A247455DA0008A6B0 /* NetowrkableAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B568247455DA0008A6B0 /* NetowrkableAuth.swift */; };
 		0442B56C247463D50008A6B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B56B247463D50008A6B0 /* Item.swift */; };
+		04676D9D2477319E0090988D /* CategoriesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676D9C2477319E0090988D /* CategoriesDetails.swift */; };
 		92383C01F4EC3512011772EE /* Pods_Vincent_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6E930E76D8F8D124D7E4B3 /* Pods_Vincent_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		0442B567247455DA0008A6B0 /* NetworkingSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingSignUp.swift; sourceTree = "<group>"; };
 		0442B568247455DA0008A6B0 /* NetowrkableAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetowrkableAuth.swift; sourceTree = "<group>"; };
 		0442B56B247463D50008A6B0 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		04676D9C2477319E0090988D /* CategoriesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDetails.swift; sourceTree = "<group>"; };
 		917E43B3ED949BC8AC6C38BC /* Pods-Vincent_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vincent_App.release.xcconfig"; path = "Target Support Files/Pods-Vincent_App/Pods-Vincent_App.release.xcconfig"; sourceTree = "<group>"; };
 		9F6E930E76D8F8D124D7E4B3 /* Pods_Vincent_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vincent_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E146760ECB006E7EB6087447 /* Pods-Vincent_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vincent_App.debug.xcconfig"; path = "Target Support Files/Pods-Vincent_App/Pods-Vincent_App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				0432298B2475F65400FE287A /* itemdetails.swift */,
+				04676D9C2477319E0090988D /* CategoriesDetails.swift */,
 			);
 			path = Safeyah;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				0442B569247455DA0008A6B0 /* NetworkingSignUp.swift in Sources */,
 				0442B564247455A40008A6B0 /* NetworkingImages.swift in Sources */,
 				0432298D2475F65400FE287A /* reviewcard.swift in Sources */,
+				04676D9D2477319E0090988D /* CategoriesDetails.swift in Sources */,
 				0442B54224744D850008A6B0 /* SceneDelegate.swift in Sources */,
 				0442B54424744D850008A6B0 /* ContentView.swift in Sources */,
 			);

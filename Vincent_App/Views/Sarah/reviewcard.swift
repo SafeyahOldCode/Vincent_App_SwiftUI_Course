@@ -41,7 +41,7 @@ struct reviewcard: View {
                         
                         
                         .background(Color.white)
-                        .clipShape(Rounded())
+                        //.clipShape()
                 }.frame(height:800).offset(y:50)
             }}}}
 

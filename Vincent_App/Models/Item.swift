@@ -11,5 +11,8 @@ import Foundation
 
 struct Item: Codable, Hashable{
     var name: String
+//    var owner : String
     var price: Double
+//    var avaliable : Bool
+//    var imageUrl : String
 }

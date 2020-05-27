@@ -19,8 +19,6 @@ struct SignUpView: View {
         ZStack{
             Color("BGColor")
             
-            
-            
             VStack( alignment: .center){
                 Image("vincent")
                     .resizable()
@@ -29,83 +27,62 @@ struct SignUpView: View {
                     .overlay(Circle().stroke(Color.black,lineWidth: 2))
                     .shadow(radius: 0.9)
                     .frame(width: 200, height: 200 , alignment: .center)
-                   
-                     .padding(.top)
+                    
+                    .padding(.top)
                 VStack( alignment: .leading) {
-                TextField("Enter your Email", text: $user.email )
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .frame(width: 300, alignment: .leading)
-                    .padding(.top)
-                                   
-                    
-                    TextField("Enter your password", text: $password)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    
-                    .frame(width: 300,alignment: .leading)
-                    .padding(.top)
-                
-                
-                Text("Select your User Type:")
-                    .font(.system(size:25))
-                    
-                    .bold()
-                    .multilineTextAlignment(.leading)
-                    .padding(.top)
-                HStack{
-                    Text("Buyer")
-                    .font(.system(size:20))
-                                       
-                    .bold()
-                    //                .onTapGesture() {
-                    //                    userType = $user.userType
-                    //                }
-                    Text("Seller")
-                    .font(.system(size:20))
-                    .bold()
-                    //                .onTapGesture() {
-                    //                    userType =  $user.userType
-                    //                }
+                    TextField("Enter your Email", text: $user.email )
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .frame(width: 300, alignment: .leading)
+                        .padding(.top)
                     
                     
-                    //
+                    SecureField("Enter your password", text: $password)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        
+                        .frame(width: 300,alignment: .leading)
+                        .padding(.top)
                     
-                }.padding()
                 }
                 
-                    VStack(alignment: .center, spacing: 5) {
+                VStack(alignment: .center, spacing: 5) {
                     Button(action: {
                         self.signUp()
                     
+                        
                     }) {
-                                               
-                                               Text("Register")
-                                                   .font(.custom("Helvetica Neue", size: 27))
-                                                   .fontWeight(.bold)
-
-                                                   .frame(width:170 ,height:50, alignment: .center)
-                                                   .background(Color("SignupColor"))
-                                                   .clipShape(Capsule())
-                                                   .foregroundColor(.white)
-                                    
-                                           }.padding(90)
-                
+                        
+                        NavigationLink(destination: _Categories(), isActive: self.$signedUp) {
+                            Text("Register")
+                            .font(.custom("Helvetica Neue", size: 27))
+                            .fontWeight(.bold)
+                            
+                            .frame(width:170 ,height:50, alignment: .center)
+                            .background(Color("SignupColor"))
+                            .clipShape(Capsule())
+                            .foregroundColor(.white)
+                        }.padding(90)
+                        
+                        
+                    }
                     
-                
-                
-            }
+                    
+                    
+                    
+                }
                 
             }
         }.edgesIgnoringSafeArea(.all)
     }
     
     func signUp(){
-          Networking.signUp(user: user, password: password, success: { uid in
-              self.uid = uid
-              self.signedUp = true
-          }) {
-              self.signedUpFailed = true
-          }
-      }
+        Networking.signUp(user: user, password: password, success: { uid in
+            self.uid = uid
+            self.signedUp = true
+            
+        }) {
+            self.signedUpFailed = true
+        }
+    }
 }
 
 struct SignUpView_Previews: PreviewProvider {

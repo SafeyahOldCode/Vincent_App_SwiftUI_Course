@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0432298C2475F65400FE287A /*  Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043229892475F65300FE287A /*  Categories.swift */; };
-		0432298D2475F65400FE287A /* reviewcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432298A2475F65300FE287A /* reviewcard.swift */; };
-		0432298E2475F65400FE287A /* itemdetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432298B2475F65400FE287A /* itemdetails.swift */; };
-		043229912475F66900FE287A /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432298F2475F66900FE287A /* Env.swift */; };
 		043229922475F66900FE287A /* itemsrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043229902475F66900FE287A /* itemsrow.swift */; };
 		0442B54024744D850008A6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B53F24744D850008A6B0 /* AppDelegate.swift */; };
 		0442B54224744D850008A6B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B54124744D850008A6B0 /* SceneDelegate.swift */; };
@@ -28,14 +25,14 @@
 		0442B56A247455DA0008A6B0 /* NetowrkableAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B568247455DA0008A6B0 /* NetowrkableAuth.swift */; };
 		0442B56C247463D50008A6B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442B56B247463D50008A6B0 /* Item.swift */; };
 		04676D9D2477319E0090988D /* CategoriesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676D9C2477319E0090988D /* CategoriesDetails.swift */; };
+		04676DAA247E8B620090988D /* reviewcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676DA8247E8B600090988D /* reviewcard.swift */; };
+		04676DAB247E8B620090988D /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676DA9247E8B620090988D /* Checkout.swift */; };
+		04676DAE247E9FCC0090988D /* Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676DAD247E9FCC0090988D /* Rounded.swift */; };
 		92383C01F4EC3512011772EE /* Pods_Vincent_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6E930E76D8F8D124D7E4B3 /* Pods_Vincent_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		043229892475F65300FE287A /*  Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " Categories.swift"; sourceTree = "<group>"; };
-		0432298A2475F65300FE287A /* reviewcard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reviewcard.swift; sourceTree = "<group>"; };
-		0432298B2475F65400FE287A /* itemdetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemdetails.swift; sourceTree = "<group>"; };
-		0432298F2475F66900FE287A /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
 		043229902475F66900FE287A /* itemsrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemsrow.swift; sourceTree = "<group>"; };
 		0442B53C24744D850008A6B0 /* Vincent_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vincent_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0442B53F24744D850008A6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +52,9 @@
 		0442B568247455DA0008A6B0 /* NetowrkableAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetowrkableAuth.swift; sourceTree = "<group>"; };
 		0442B56B247463D50008A6B0 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		04676D9C2477319E0090988D /* CategoriesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDetails.swift; sourceTree = "<group>"; };
+		04676DA8247E8B600090988D /* reviewcard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reviewcard.swift; sourceTree = "<group>"; };
+		04676DA9247E8B620090988D /* Checkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
+		04676DAD247E9FCC0090988D /* Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rounded.swift; sourceTree = "<group>"; };
 		917E43B3ED949BC8AC6C38BC /* Pods-Vincent_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vincent_App.release.xcconfig"; path = "Target Support Files/Pods-Vincent_App/Pods-Vincent_App.release.xcconfig"; sourceTree = "<group>"; };
 		9F6E930E76D8F8D124D7E4B3 /* Pods_Vincent_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vincent_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E146760ECB006E7EB6087447 /* Pods-Vincent_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vincent_App.debug.xcconfig"; path = "Target Support Files/Pods-Vincent_App/Pods-Vincent_App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,7 +84,8 @@
 		04322994247624C700FE287A /* Sarah */ = {
 			isa = PBXGroup;
 			children = (
-				0432298A2475F65300FE287A /* reviewcard.swift */,
+				04676DA9247E8B620090988D /* Checkout.swift */,
+				04676DA8247E8B600090988D /* reviewcard.swift */,
 			);
 			path = Sarah;
 			sourceTree = "<group>";
@@ -92,7 +93,6 @@
 		04322995247624D100FE287A /* Safeyah */ = {
 			isa = PBXGroup;
 			children = (
-				0432298B2475F65400FE287A /* itemdetails.swift */,
 				04676D9C2477319E0090988D /* CategoriesDetails.swift */,
 			);
 			path = Safeyah;
@@ -119,6 +119,7 @@
 		0442B53E24744D850008A6B0 /* Vincent_App */ = {
 			isa = PBXGroup;
 			children = (
+				04676DAC247E9FAE0090988D /* supportFile */,
 				0442B5612474555E0008A6B0 /* Networking */,
 				0442B53F24744D850008A6B0 /* AppDelegate.swift */,
 				0442B54124744D850008A6B0 /* SceneDelegate.swift */,
@@ -158,7 +159,6 @@
 			children = (
 				0442B56B247463D50008A6B0 /* Item.swift */,
 				0442B55A24744E0B0008A6B0 /* User.swift */,
-				0432298F2475F66900FE287A /* Env.swift */,
 				043229902475F66900FE287A /* itemsrow.swift */,
 			);
 			path = Models;
@@ -181,6 +181,14 @@
 				0442B567247455DA0008A6B0 /* NetworkingSignUp.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		04676DAC247E9FAE0090988D /* supportFile */ = {
+			isa = PBXGroup;
+			children = (
+				04676DAD247E9FCC0090988D /* Rounded.swift */,
+			);
+			path = supportFile;
 			sourceTree = "<group>";
 		};
 		18DC99880B778C04EAEFD0B2 /* Pods */ = {
@@ -316,12 +324,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043229912475F66900FE287A /* Env.swift in Sources */,
+				04676DAB247E8B620090988D /* Checkout.swift in Sources */,
 				0442B55724744DEC0008A6B0 /* SignUpView.swift in Sources */,
 				0442B54024744D850008A6B0 /* AppDelegate.swift in Sources */,
 				043229922475F66900FE287A /* itemsrow.swift in Sources */,
 				0442B55B24744E0B0008A6B0 /* User.swift in Sources */,
-				0432298E2475F65400FE287A /* itemdetails.swift in Sources */,
+				04676DAA247E8B620090988D /* reviewcard.swift in Sources */,
 				0442B565247455A40008A6B0 /* Networking.swift in Sources */,
 				0442B56A247455DA0008A6B0 /* NetowrkableAuth.swift in Sources */,
 				0442B55824744DEC0008A6B0 /* SignIn.swift in Sources */,
@@ -329,10 +337,10 @@
 				0442B56C247463D50008A6B0 /* Item.swift in Sources */,
 				0442B569247455DA0008A6B0 /* NetworkingSignUp.swift in Sources */,
 				0442B564247455A40008A6B0 /* NetworkingImages.swift in Sources */,
-				0432298D2475F65400FE287A /* reviewcard.swift in Sources */,
 				04676D9D2477319E0090988D /* CategoriesDetails.swift in Sources */,
 				0442B54224744D850008A6B0 /* SceneDelegate.swift in Sources */,
 				0442B54424744D850008A6B0 /* ContentView.swift in Sources */,
+				04676DAE247E9FCC0090988D /* Rounded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

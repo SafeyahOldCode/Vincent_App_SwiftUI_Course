@@ -35,6 +35,8 @@ class Networking// : Networkable
         var ref = Firestore.firestore()
             .collection(COLLECTION_NAME)
             .document()
+        
+        //⁉️
         ref = documentId != "" ? Firestore.firestore().collection(COLLECTION_NAME).document(documentId) : ref
         
         ref.setData(encoded) { (error) in
@@ -117,5 +119,33 @@ class Networking// : Networkable
         }
     }
     
+    
+    static func UpdateSingleDocument<T: Codable>(_ DOCUMENT_PATH: String, success: @escaping(T)-> Void)
+    {
+        Firestore.firestore().document(DOCUMENT_PATH).getDocument { (snapshot, error) in
+            if error == nil{
+                // there is no error
+                if snapshot != nil {
+                    // There is data
+                    guard let data =  snapshot?.data() else{
+                        print("🔥 no data was found for", DOCUMENT_PATH)
+                        return
+                    }
+                    do{
+                        let item = try FirebaseDecoder().decode(T.self, from: data)
+                        print(data["name"]!)
+                        DispatchQueue.main.async {
+                            success(item)
+                        }
+                    }
+                    catch{
+                        DispatchQueue.main.async {
+                            print("🔥 Couldn't cast type \(T.self)\n", error)
+                        }
+                    }
+                }
+            }
+        }
+    }
     
 }

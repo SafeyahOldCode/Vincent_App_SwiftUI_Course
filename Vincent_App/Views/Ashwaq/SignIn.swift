@@ -53,7 +53,7 @@ struct SignIn: View {
                             .frame(width: 300, alignment: .leading)
                             .offset( y: -20)
                         
-                        TextField("Enter your password", text: $credentials.password)
+                        SecureField("Enter your password", text: $credentials.password)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             
                             .frame(width: 300,alignment: .leading)
@@ -71,7 +71,7 @@ struct SignIn: View {
                         }) {
                             
                             
-                            NavigationLink(destination: ContentView()) {
+                            NavigationLink(destination: _Categories(it: "Painting") ) {
                                 Text("Sign in")
                                     
                                     .font(.custom("Helvetica Neue", size: 27))
